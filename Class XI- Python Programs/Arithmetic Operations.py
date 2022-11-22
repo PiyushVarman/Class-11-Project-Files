@@ -1,0 +1,8 @@
+x=int(input("Enter your first number:"))
+y=int(input("Enter your second number:"))
+print("")
+print("The Quotient of these numbers are:",x/y)
+print("The product of these numbers are:",x*y)
+print("The sum of these numbers are:",x+y)
+print("The difference of these numbers are:",x-y)
+input()

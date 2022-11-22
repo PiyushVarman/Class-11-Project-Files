@@ -1,0 +1,7 @@
+L=float(input("Enter L:"))
+B=float(input("Enter B:"))
+R=float(input("Enter R:"))
+H=float(input("Enter H:"))
+print("Area:",L*B,"sq.units")
+print("Perimeter:",2*(L+B),"units.")
+print("The Total Surface Area is:",2*3.14*R*(R+H),"sq.units.")

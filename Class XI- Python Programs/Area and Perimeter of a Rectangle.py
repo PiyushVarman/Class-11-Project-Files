@@ -1,0 +1,7 @@
+l=float(input("Enter the length of the rectangle:"))
+b=float(input("Enter the breadth of the rectangle:"))
+r=float(input("Enter the radius of the cylinder:"))
+h=float(input("Enter the height of the cylinder:"))
+print("The area of the rectangle is:",l*b,"sq.units.")
+print("The perimeter of the rectangle is:",2*(l+b),"units.")
+print("The total surface area of the cylinder is:",2*3.14*r*(r+h),"sq.units.")
