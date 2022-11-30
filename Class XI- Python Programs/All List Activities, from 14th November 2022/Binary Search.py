@@ -12,7 +12,7 @@ while start<=end:
     elif (l[mid]>data):  #The reference point is bigger than the data to be searched for
         last=mid-1
     else:
-        start=mid+1      #The reference point is smaller than the date to be searched for
+        start=mid+1      #The reference point is smaller than the data to be searched for
 if st==1:
     print(data,"is found at the",mid+1,"position.")
 else:
