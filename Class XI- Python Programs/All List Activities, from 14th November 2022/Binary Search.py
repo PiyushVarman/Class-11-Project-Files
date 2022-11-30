@@ -6,13 +6,13 @@ l.sort()
 data=int(input("Enter number to be searched:"))
 while start<=end:
     mid=(start+end)//2
-    if (l[mid]==data):
+    if (l[mid]==data):   #Data is RIGHT at the position
         st=1
         break
-    elif (l[mid]>data):
+    elif (l[mid]>data):  #The reference point is bigger than the data to be searched for
         last=mid-1
     else:
-        start=mid+1
+        start=mid+1      #The reference point is smaller than the date to be searched for
 if st==1:
     print(data,"is found at the",mid+1,"position.")
 else:
