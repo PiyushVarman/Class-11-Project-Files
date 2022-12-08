@@ -71,7 +71,7 @@ while True:
                         matprint()
 
             if 1 in comp and 2 in comp and 3 in comp:
-                print("Oh no! The computer wins!")
+                print("Player 2 wins!")
                 break
             elif 1 in comp and 4 in comp and 7 in comp:
                 print("Player 2 wins!")
