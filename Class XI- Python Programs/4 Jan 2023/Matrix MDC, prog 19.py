@@ -67,7 +67,7 @@ Enter your desired option: '''))
                     if b==b[::-1]:
                         pp.append(matrix[i][j])
 
-        print("The palindrome prime numbers within the matrix are:",end=' ')
+        print("The palindromic prime numbers within the matrix are:",end=' ')
         for i in range(len(pp)):
             print(pp[i],end=',')
         print('\n\n')
