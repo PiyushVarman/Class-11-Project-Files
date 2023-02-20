@@ -52,12 +52,5 @@ b=Entry(root,font=("Arial",12,"bold"),width=5,justify="center")
 b.place(x=250,y=420) #base
 c=Entry(root,font=("Arial",12,"bold"),width=5,justify="center")
 c.place(x=300,y=220) #hypotenuse
-if a.get().isdigit() and b.get.isdigit():
-    c.config(state="disabled")
-elif a.get().isdigit() and c.get.isdigit():
-    b.config(state="disabled")
-elif b.get().isdigit() and c.get.isdigit():
-    a.config(state="disabled")
-
 g=Button(root,text="Calculate",font=("Georgia",12,"bold italic"),bg="#00FF00",activebackground='#FFFF00',command=calculation)
 g.place(x=225,y=460)
