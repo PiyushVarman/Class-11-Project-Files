@@ -6,4 +6,4 @@ The Permutations program and the Permutations and Combinations Tkinter Calculato
 
 Random Number Guessing Game Tkinter: The computer has chosen a number... can you guess it right?
 
-Triangle Side Calculator: Find the third side of a triangle when given the first 2
+Triangle Side Calculator: Find the third side of a triangle when given two sides
