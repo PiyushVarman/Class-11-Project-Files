@@ -7,7 +7,7 @@ root.resizable(False,False)
 root.configure(bg="#FFD700")
 root.title("Guess the Number!")
 
-def guess():
+def guess(event):
     global result
     global choice
     choice.destroy()
@@ -36,3 +36,4 @@ g=Entry(root,font=("Georgia",15))
 g.place(x=250,y=400,anchor="center")
 b=Button(root,text="Guess!",font=("Consolas",12,"bold"),command=guess,bg="#39FF14",activebackground='red',borderwidth=2)
 b.place(x=250,y=460,anchor="center")
+root.bind('<Return>',guess)
