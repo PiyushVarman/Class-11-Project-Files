@@ -25,7 +25,6 @@ def guess():
             result.place(x=250,y=310,anchor="center")
     else:
         messagebox.showerror("Hold on!","The input should be\na number from 1 to 10!")
-    
     g.delete(0,END)
 Rule=Label(root,text="Enter a number from 1 to 10.\nSee if you got it right!",font=("Consolas",20),bg="#FFD700")
 Rule.place(x=250,y=50,anchor="center")
