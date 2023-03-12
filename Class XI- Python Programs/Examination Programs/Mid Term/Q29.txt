@@ -1,0 +1,2 @@
+i) Write the python program that accept marks in 5 subjects and output average marks. 
+ii) Write a program to read a number n and print n^2, n^3 and n^4.
