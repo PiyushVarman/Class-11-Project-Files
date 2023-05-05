@@ -7,7 +7,7 @@ data=int(input("Enter number to be searched:"))
 while start<=end:
     mid=(start+end)//2
     if (l[mid]==data):   #Data is RIGHT at the position
-        st=1
+        st=1             #Status
         break
     elif (l[mid]>data):  #The reference point is bigger than the data to be searched for
         last=mid-1
